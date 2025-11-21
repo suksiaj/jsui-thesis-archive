@@ -1,0 +1,291 @@
+# Getting Started with @suksiaj/jsui
+
+export const meta = {
+  title: 'Getting Started',
+};
+
+Welcome to **@suksiaj/jsui** - a modern React component library built with TypeScript, MUI (Material-UI), and best practices in mind.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Installation](#installation)
+- [Core Principles](#core-principles)
+- [Development Philosophy](#development-philosophy)
+- [Component Architecture](#component-architecture)
+- [Testing Strategy](#testing-strategy)
+- [Contributing](#contributing)
+
+---
+
+## Overview
+
+@suksiaj/jsui is a TypeScript-first React component library that extends Material-UI components with simplified, opinionated APIs. The library is designed to provide:
+
+- **Type Safety**: Full TypeScript support with strict typing
+- **MUI Integration**: Built on top of Material-UI for consistent design
+- **Simplified APIs**: Cleaner interfaces for common use cases
+- **Comprehensive Documentation**: Every component documented with Storybook
+- **Test Coverage**: Automated testing with Jest and Storybook test-runner
+
+---
+
+## Installation
+
+Install the library via npm:
+
+```bash
+npm install @suksiaj/jsui
+```
+
+### Peer Dependencies
+
+Ensure you have React 19+ installed:
+
+```bash
+npm install react@^19.1.1 react-dom@^19.1.1
+```
+
+### Import Components
+
+```tsx
+import { IconButton, Drawer, NavBar } from '@suksiaj/jsui';
+```
+
+---
+
+## Core Principles
+
+### 1. **MUI as Foundation**
+
+All components extend Material-UI components rather than reinventing the wheel. This ensures:
+- Consistent design language
+- Accessibility out of the box
+- Battle-tested component logic
+- Theme integration capabilities
+
+### 2. **Simplified Props API**
+
+While MUI components support all native props, our library provides simplified custom variants:
+
+```tsx
+// Instead of complex MUI props
+<MuiButton variant="contained" color="primary" size="large">
+  Click me
+</MuiButton>
+
+// Use our simplified API
+<IconButton variant="primary" size="large" content="Click me" />
+```
+
+### 3. **TypeScript First**
+
+Every component is:
+- Fully typed with TypeScript
+- Documented with JSDoc comments
+- Exported with proper type definitions
+- Validated with strict mode enabled
+
+### 4. **Component Composition**
+
+Components are designed to work together seamlessly. Internal components can be composed to create more complex patterns without breaking encapsulation.
+
+---
+
+## Development Philosophy
+
+### Functional Components
+
+All components use modern React patterns:
+- Functional components with hooks
+- `React.FC<Props>` typing
+- Named exports for better tree-shaking
+
+### Immutability & Pure Functions
+
+Following functional programming principles:
+- Prefer `const` over `let`
+- Use `readonly` for type definitions
+- Avoid side effects where possible
+- Leverage optional chaining (`?.`) and nullish coalescing (`??`)
+
+### Code Organization
+
+Each component follows a strict folder structure:
+
+```
+ComponentName/
+├── ComponentName.tsx       # Component implementation
+├── ComponentName.test.tsx  # Jest tests
+├── ComponentName.stories.tsx # Storybook stories
+└── index.ts               # Barrel export
+```
+
+---
+
+## Component Architecture
+
+### Available Components
+
+The library currently includes:
+
+- **IconButton**: Customizable button component with icon and loading state support
+- **Drawer**: Slide-in panel component with customizable position and close behavior
+- **NavBar**: Navigation bar with integrated hamburger menu and drawer
+
+### Props Interface Pattern
+
+Every component exports its props interface for consumer use:
+
+```tsx
+export interface IconButtonProps {
+  /** Visual style variant */
+  variant?: 'outlined' | 'text' | 'contained';
+  /** Button content (text or icon) */
+  content?: React.ReactNode;
+  /** Click handler */
+  onClick?: () => void;
+  /** Loading state */
+  loading?: boolean;
+}
+
+export const IconButton: React.FC<IconButtonProps> = ({ variant, content, onClick, loading }) => {
+  // Implementation
+};
+```
+
+### Extending MUI Components
+
+Components extend MUI base components while maintaining compatibility:
+
+```tsx
+import MuiButton from '@mui/material/Button';
+import type { ButtonProps as MuiButtonProps } from '@mui/material/Button';
+
+export interface CustomButtonProps extends Omit<MuiButtonProps, 'variant'> {
+  variant?: 'primary' | 'secondary'; // Custom variants
+}
+
+export const CustomButton: React.FC<CustomButtonProps> = (props) => {
+  return <MuiButton {...props} />;
+};
+```
+
+### Composition Over Configuration
+
+Complex components are built by composing simpler ones:
+
+```tsx
+// IconButton is used inside NavBar (hamburger menu)
+// Drawer is used inside NavBar (navigation panel)
+// Each component remains independent and testable
+```
+
+---
+
+## Testing Strategy
+
+### Unit Tests (Jest)
+
+Every component has Jest tests using Testing Library:
+
+```tsx
+import { render, screen } from '@testing-library/react';
+import { IconButton } from './IconButton';
+
+test('renders with text', () => {
+  render(<IconButton content="Click me" />);
+  expect(screen.getByText('Click me')).toBeInTheDocument();
+});
+```
+
+### Storybook Stories
+
+Each component has comprehensive stories demonstrating:
+- All variants and sizes
+- Different states (disabled, loading, etc.)
+- Interactive examples with play functions
+- Accessibility compliance (ARIA labels, WCAG AA contrast ratios)
+- Edge cases
+
+### Interaction Tests
+
+Storybook stories include automated interaction tests using `@testing-library/user-event`:
+
+```tsx
+export const Primary: Story = {
+  args: {
+    content: 'Primary Button',
+    variant: 'contained',
+  },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    const user = userEvent.setup();
+    
+    const button = canvas.getByRole('button', { name: /primary button/i });
+    await user.click(button);
+  },
+};
+```
+
+### Accessibility Testing
+
+All components are tested for accessibility:
+- WCAG AA color contrast ratios (4.5:1 for normal text, 3:1 for large text)
+- Proper ARIA labels on interactive elements
+- Semantic HTML structure (proper use of `<ul>`, `<li>`, etc.)
+- Keyboard navigation support
+
+---
+
+## Contributing
+
+### Development Workflow
+
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Run Storybook** (primary development environment):
+   ```bash
+   npm run storybook
+   ```
+
+3. **Run tests**:
+   ```bash
+   npm test
+   ```
+
+4. **Build library**:
+   ```bash
+   npm run rollup
+   ```
+
+### Code Standards
+
+- Use TypeScript strict mode
+- Follow existing component structure
+- Add JSDoc comments for all public APIs
+- Include Storybook stories for new components
+- Write Jest tests for component logic
+- Update documentation when adding features
+
+### Build Output
+
+The library outputs dual bundles:
+- **CJS**: `dist/cjs/` - CommonJS for Node.js
+- **ESM**: `dist/esm/` - ES Modules for modern bundlers
+- **Types**: `dist/index.d.ts` - TypeScript declarations
+
+---
+
+## Next Steps
+
+Explore the component documentation in the sidebar to see detailed examples, props tables, and interactive demos. Each component page includes:
+
+- **Docs**: Comprehensive prop documentation
+- **Canvas**: Interactive component playground
+- **Stories**: Pre-configured usage examples
+
+Happy coding! 🚀

@@ -1,0 +1,1458 @@
+[18:40:41.785] [INFO] Storybook Upgrade - v10.0.8
+[18:40:41.919] [INFO] detect-projects-spinner-start: Detecting projects...
+[18:40:41.922] [DEBUG] Finding Storybook projects...
+[18:40:45.907] [DEBUG] Found 1 Storybook projects
+[18:40:45.917] [INFO] detect-projects-spinner: Detecting projects: 1 projects
+[18:40:45.918] [DEBUG] Getting Storybook data...
+[18:40:45.918] [DEBUG] Getting Storybook info...
+[18:40:45.958] [DEBUG] Loading main config...
+[18:40:47.549] [DEBUG] Getting stories paths...
+[18:40:47.618] [DEBUG] Getting package manager...
+[18:40:48.330] [DEBUG] Getting Storybook version...
+[18:40:48.332] [DEBUG] C:/Users/zuksi/Projects/jsui/.storybook - Validating before version... 10.0.6
+[18:40:48.332] [DEBUG] C:/Users/zuksi/Projects/jsui/.storybook - Validating upgrade compatibility...
+[18:40:48.332] [DEBUG] C:/Users/zuksi/Projects/jsui/.storybook - Fetching NPM version information...
+[18:40:48.332] [DEBUG] Getting CLI versions from NPM for storybook...
+[18:40:48.347] [DEBUG] Getting CLI versions from NPM for storybook@next...
+[18:40:51.863] [DEBUG] C:/Users/zuksi/Projects/jsui/.storybook - Evaluating blockers...
+[18:40:51.939] [DEBUG] Getting installed version for @storybook/experimental-addon-test...
+[18:40:58.583] [INFO] detect-projects-spinner-stop: 1 project detected
+[18:40:58.585] [DEBUG] Found 1 valid projects and 0 error projects
+[18:40:58.585] [INFO] Upgrading from 10.0.6 to 10.0.8
+[18:40:58.714] [INFO] upgrade-dependencies-task-start: Fetching versions to update package.json files..
+[18:40:58.715] [DEBUG] Updating dependencies in C:/Users/zuksi/Projects/jsui/.storybook...
+[18:40:58.831] [INFO] upgrade-dependencies-task: C:/Users/zuksi/Projects/jsui/package.json
+[18:40:58.833] [DEBUG] Getting CLI versions from NPM for @storybook/addon-webpack5-compiler-swc...
+[18:40:58.842] [DEBUG] Getting CLI versions from NPM for @storybook/test-runner...
+[18:41:02.059] [DEBUG] {
+  "upgradedDependencies": []
+}
+[18:41:02.059] [DEBUG] {
+  "upgradedDevDependencies": [
+    "@storybook/addon-docs@^10.0.8",
+    "@storybook/addon-onboarding@^10.0.8",
+    "@storybook/react-webpack5@^10.0.8",
+    "storybook@^10.0.8",
+    "@storybook/addon-webpack5-compiler-swc@^4.0.2",
+    "@storybook/test-runner@^0.24.1"
+  ]
+}
+[18:41:02.059] [DEBUG] {
+  "upgradedPeerDependencies": []
+}
+[18:41:02.064] [DEBUG] Getting CLI versions from NPM for @storybook/addon-docs...
+[18:41:05.506] [DEBUG] Getting CLI versions from NPM for @storybook/addon-onboarding...
+[18:41:09.030] [DEBUG] Getting CLI versions from NPM for @storybook/react-webpack5...
+[18:41:12.217] [DEBUG] Using cached version for storybook...
+[18:41:12.217] [DEBUG] Using cached version for @storybook/addon-webpack5-compiler-swc...
+[18:41:12.217] [DEBUG] Using cached version for @storybook/test-runner...
+[18:41:12.224] [INFO] upgrade-dependencies-task-success: Updated package versions in package.json files
+[18:41:12.227] [INFO] detect-automigrations-task-start: Detecting automigrations...
+[18:41:12.227] [DEBUG] Starting automigration collection across 1 projects and 18 fixes...
+[18:41:12.349] [INFO] detect-automigrations-task: Checking automigrations for C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:12.349] [DEBUG] Processing project: C:/Users/zuksi/Projects/jsui/.storybook
+[18:41:12.349] [DEBUG] Checking fix eslintPlugin for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:12.361] [DEBUG] Checking fix addon-mdx-gfm-remove for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:12.362] [DEBUG] Checking fix addon-storysource-code-panel for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:12.363] [DEBUG] Checking fix upgrade-storybook-related-dependencies for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:12.363] [DEBUG] Checking for incompatible storybook packages...
+[18:41:12.370] [DEBUG] Getting installed version for @storybook/addon-mcp...
+[18:41:18.872] [DEBUG] An issue occurred while trying to find dependencies metadata using npm.
+[18:41:18.872] [DEBUG] Getting CLI versions from NPM for @storybook/addon-mcp...
+[18:41:23.198] [DEBUG] Checking fix initial-globals for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.243] [DEBUG] Checking fix addon-globals-api for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.251] [DEBUG] Checking fix addon-a11y-addon-test for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.251] [DEBUG] Checking fix consolidated-imports for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.253] [DEBUG] Checking fix addon-experimental-test for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.253] [DEBUG] Using cached installed version for @storybook/experimental-addon-test...
+[18:41:23.253] [DEBUG] Checking fix rnstorybook-config for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.253] [DEBUG] Checking fix migrate-addon-console for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.254] [DEBUG] Checking fix remove-addon-interactions for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.254] [DEBUG] Checking fix renderer-to-framework for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.256] [DEBUG] Checking fix remove-essential-addons for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.257] [DEBUG] Checking fix addon-a11y-parameters for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.257] [DEBUG] Checking fix remove-docs-autodocs for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.262] [DEBUG] Checking fix wrap-getAbsolutePath for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.269] [DEBUG] Checking fix fix-faux-esm-require for project C:/Users/zuksi/Projects/jsui/.storybook...
+[18:41:23.406] [INFO] detect-automigrations-task: 
+Automigrations detected:
+[18:41:23.407] [INFO] detect-automigrations-task-success: No automigrations detected
+[18:41:23.408] [DEBUG] Completed automigrations for C:/Users/zuksi/Projects/jsui/.storybook
+[18:41:23.409] [INFO] Installing dependencies...
+[18:41:23.409] [INFO] install-dependencies-task-start: Installing dependencies...
+[18:41:38.339] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:41:38.444] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:41:44.584] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:41:44.691] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:41:50.665] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:41:50.768] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:41:56.991] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:41:57.094] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:03.543] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:03.664] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:09.904] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:10.005] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:16.175] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:16.277] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:22.264] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:22.366] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:28.571] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:28.677] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:34.894] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:35.002] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:41.655] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:41.776] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:48.175] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:48.275] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:54.597] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:42:54.705] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:01.021] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:01.127] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:07.397] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:07.498] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:13.664] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:13.766] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:20.306] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:20.413] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:26.895] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:27.006] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:33.795] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:33.923] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:40.491] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:40.605] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:46.844] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:46.953] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:53.182] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:53.291] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:43:59.912] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:44:00.021] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:44:06.748] [INFO] > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:44:06.859] [INFO] install-dependencies-task: > @suksiaj/jsui@0.0.3 install
+> npm install
+[18:44:08.426] [ERROR] An error occurred while installing dependencies. {"error":"Error: Command failed with exit code 1: npm install --force\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn using --force Recommended protections disabled.\nnpm warn ERESOLVE overriding peer dependency\nnpm warn While resolving: @storybook/addon-mcp@0.1.0\nnpm warn Found: storybook@10.0.8\nnpm warn node_modules/storybook\nnpm warn   dev storybook@\"^10.0.8\" from the root project\nnpm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)\nnpm warn\nnpm warn Could not resolve dependency:\nnpm warn peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn node_modules/@storybook/addon-mcp\nnpm warn   dev @storybook/addon-mcp@\"^0.1.0\" from the root project\nnpm warn\nnpm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e\nnpm warn node_modules/storybook\nnpm warn   peer storybook@\"0.0.0-pr-32810-sha-6e759c7e\" from @storybook/addon-mcp@0.1.0\nnpm warn   node_modules/@storybook/addon-mcp\nnpm warn     dev @storybook/addon-mcp@\"^0.1.0\" from the root project\n'npm' is not recognized as an internal or external command,\r\noperable program or batch file.\r\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_44_00_916Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_43_54_187Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_43_47_850Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_43_41_440Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_43_34_734Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_43_27_829Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_43_21_207Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_43_14_579Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_43_08_239Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_43_01_833Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_42_55_392Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_42_48_972Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_42_42_489Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_42_35_718Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_42_29_298Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_42_22_987Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_42_16_925Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_42_10_585Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_42_04_243Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_41_57_704Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_41_51_330Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_41_45_187Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_41_38_946Z-debug-0.log\nnpm error code 1\nnpm error path C:\\Users\\zuksi\\Projects\\jsui\nnpm error command failed\nnpm error command C:\\WINDOWS\\system32\\cmd.exe /d /s /c npm install\nnpm error A complete log of this run can be found in: C:\\Users\\zuksi\\AppData\\Local\\npm-cache\\_logs\\2025-11-18T16_41_23_973Z-debug-0.log\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n\n> @suksiaj/jsui@0.0.3 install\n> npm install\n\n    at makeError (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/storybook/dist/_node-chunks/chunk-F6NUZ463.js:3655:13)\n    at handlePromise (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/storybook/dist/_node-chunks/chunk-F6NUZ463.js:4586:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Object.executeTask (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/storybook/dist/node-logger/index.js:4418:7)\n    at async NPMProxy.installDependencies (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/storybook/dist/_node-chunks/chunk-FYLSDVSH.js:11249:5)\n    at async file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/@storybook/cli/dist/_node-chunks/run-TLOFK5QH.js:11289:11\n    at async withTelemetry (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/storybook/dist/_node-chunks/chunk-TKXE3RQ5.js:278:12)\n    at async upgrade (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/@storybook/cli/dist/_node-chunks/run-TLOFK5QH.js:11201:3)\n    at async Command.<anonymous> (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/@storybook/cli/dist/_node-chunks/run-TLOFK5QH.js:11451:3)"}
+[18:44:08.426] [ERROR] install-dependencies-task-error: An error occurred while installing dependencies.
+[18:44:08.428] [ERROR] Error: Command failed with exit code 1: npm install --force
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+'npm' is not recognized as an internal or external command,
+operable program or batch file.
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_44_00_916Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_54_187Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_47_850Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_41_440Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_34_734Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_27_829Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_21_207Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_14_579Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_08_239Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_01_833Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_55_392Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_48_972Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_42_489Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_35_718Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_29_298Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_22_987Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_16_925Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_10_585Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_04_243Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_41_57_704Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_41_51_330Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_41_45_187Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_41_38_946Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_41_23_973Z-debug-0.log
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+    at makeError (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/storybook/dist/_node-chunks/chunk-F6NUZ463.js:3655:13)
+    at handlePromise (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/storybook/dist/_node-chunks/chunk-F6NUZ463.js:4586:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.executeTask (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/storybook/dist/node-logger/index.js:4418:7)
+    at async NPMProxy.installDependencies (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/storybook/dist/_node-chunks/chunk-FYLSDVSH.js:11249:5)
+    at async file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/@storybook/cli/dist/_node-chunks/run-TLOFK5QH.js:11289:11
+    at async withTelemetry (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/storybook/dist/_node-chunks/chunk-TKXE3RQ5.js:278:12)
+    at async upgrade (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/@storybook/cli/dist/_node-chunks/run-TLOFK5QH.js:11201:3)
+    at async Command.<anonymous> (file:///C:/Users/zuksi/AppData/Local/npm-cache/_npx/35296d5896917b91/node_modules/@storybook/cli/dist/_node-chunks/run-TLOFK5QH.js:11451:3)
+[18:44:09.856] [ERROR] Error: Command failed with exit code 1: npm install --force
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @storybook/addon-mcp@0.1.0
+npm warn Found: storybook@10.0.8
+npm warn node_modules/storybook
+npm warn   dev storybook@"^10.0.8" from the root project
+npm warn   11 more (@storybook/addon-docs, @storybook/csf-plugin, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn node_modules/@storybook/addon-mcp
+npm warn   dev @storybook/addon-mcp@"^0.1.0" from the root project
+npm warn
+npm warn Conflicting peer dependency: storybook@0.0.0-pr-32810-sha-6e759c7e
+npm warn node_modules/storybook
+npm warn   peer storybook@"0.0.0-pr-32810-sha-6e759c7e" from @storybook/addon-mcp@0.1.0
+npm warn   node_modules/@storybook/addon-mcp
+npm warn     dev @storybook/addon-mcp@"^0.1.0" from the root project
+'npm' is not recognized as an internal or external command,
+operable program or batch file.
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_44_00_916Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_54_187Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_47_850Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_41_440Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_34_734Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_27_829Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_21_207Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_14_579Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_08_239Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_43_01_833Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_55_392Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_48_972Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_42_489Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_35_718Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_29_298Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_22_987Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_16_925Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_10_585Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_42_04_243Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_41_57_704Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_41_51_330Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_41_45_187Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_41_38_946Z-debug-0.log
+npm error code 1
+npm error path .
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm install
+npm error A complete log of this run can be found in: C:\Users\zuksi\AppData\Local\npm-cache\_logs\2025-11-18T16_41_23_973Z-debug-0.log
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
+
+
+> @suksiaj/jsui@0.0.3 install
+> npm install
