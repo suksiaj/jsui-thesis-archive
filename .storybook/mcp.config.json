@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mui-docs": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-mui"],
+      "description": "MUI component documentation",
+      "env": {}
+    }
+  }
+}
