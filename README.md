@@ -1,21 +1,10 @@
-# @suksiaj/jsui
+# @suksiaj/jsui-thesis-archive
 
-[![npm version](https://img.shields.io/npm/v/@suksiaj/jsui?label=npm)](https://www.npmjs.com/package/@suksiaj/jsui)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/badge/build-pending-lightgrey)](#)
+[![Build Status](https://img.shields.io/badge/build-archived-lightgrey)](#)
 
 **A custom React component library** built for personal use across multiple projects.  
 It leverages **TypeScript**, **React**, and **MUI**, offering easily customizable styles to fit any project’s design needs.
-
-> 🚧 **In early development** — components are being actively added.
-
----
-
-## 🔧 Installation
-
-Install the package from GitHub Packages:
-
-*Not yet available*
 
 ---
 
@@ -48,17 +37,6 @@ Implemented components:
 - [x] `Drawer` — Slide-in panel with customizable position and close behavior
 - [x] `NavBar` — Navigation bar with integrated hamburger menu and drawer
 
-Planned components:
-
-- [ ] `TextField`
-- [ ] `Select`
-- [ ] `Checkbox`
-- [ ] `Modal`
-- [ ] `Card`
-- [ ] `Table`
-- [ ] `Alert`
-- [ ] `Tabs`
-
 ---
 
 ## ⚙️ Technical Details
@@ -73,7 +51,6 @@ Planned components:
 - **Testing:** Jest + Testing Library + Storybook interaction tests
 - **Documentation:** Storybook 10.0.8 with comprehensive stories
 - **Accessibility:** WCAG AA compliance (4.5:1 contrast ratios, ARIA labels, semantic HTML)
-- **CI/CD:** Not implemented yet
 
 ---
 
@@ -106,4 +83,5 @@ It is primarily developed for **personal and portfolio purposes**.
 
 **Jesse Suksia**  
 GitHub: [@suksiaj](https://github.com/suksiaj)
+
 
